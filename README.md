@@ -70,6 +70,7 @@ To run the chatbot application effectively, it's essential to set up a virtual e
 
 2. **Enter your Hugging Face Token:**
    - When prompted, input your Hugging Face token in the provided field. This token is necessary for accessing the LLaMA model.
+   - **Note:** The LLaMA model is part of a gated community on Hugging Face. To access it, you may need to apply for access on their website and provide details about your intended use case. Once approved, you will receive a token that you can use in this application.
 
 3. **Provide a prompt:**
    - Type your query or prompt in the designated input box.
@@ -88,14 +89,8 @@ To run the chatbot application effectively, it's essential to set up a virtual e
 - If there are issues loading the model, appropriate error messages will be displayed.
 - Ensure that the Hugging Face token is valid and has the necessary permissions.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - [Hugging Face](https://huggingface.co/) for providing the LLaMA model and APIs.
 - [Streamlit](https://streamlit.io/) for creating an easy-to-use web application framework.
 ```
-
-This addition provides a clear guideline on how to set up an environment specifically for the chatbot, ensuring users can run the application smoothly.
