@@ -1,2 +1,5 @@
-streamlit
-openai
+pypdf
+langchain
+chromadb # Vector storage
+pytest
+boto3
