@@ -1,7 +1,31 @@
-# rag-tutorial-v2
+# Chatbot
 
-The main idea is that we put any pdf that we want to read in the data directory.
-From there, we add it to the database using the populate_database.py script.
-Then, we can use the RAG model to answer questions about the text.
+This repository provides scripts to build a chatbot using the LLaMA model from Hugging Face. The chatbot generates responses based on user inputs, demonstrating the capabilities of the LLaMA language model.
 
-To use the RAG mode, run python query_data.py "this is your query"
+## Features
+- Embedding function generation.
+- Database population for storing chatbot context.
+- Query processing using the RAG framework.
+
+## Usage
+1. Add your PDF files to the `data` directory.
+2. Populate the database:  
+   ```bash
+   python populate_database.py
+   ```
+3. Query the chatbot:  
+   ```bash
+   python query_data.py "Your question here"
+   ```
+
+## Requirements
+Install dependencies with:  
+```bash
+pip install -r requirements.txt
+```
+
+## Files
+- **get_embedding_function.py**: Embedding generation script.
+- **populate_database.py**: Adds data to the database.
+- **query_data.py**: Processes user queries.
+- **test_rag.py**: RAG model testing.
